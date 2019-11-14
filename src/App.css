@@ -1,0 +1,40 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    overflow: hidden;
+}
+
+.App-link {
+    color: #09d3ac;
+}
+
+.Toastify__toast-container--top-right {
+    border-radius: 4px;
+}
+
+.Toastify__toast--success {
+    background: #4CAF50 !important;
+}
+
+.Toastify__toast--success,
+.Toastify__toast--error,
+.Toastify__toast--info,
+.Toastify__toast--warning,
+.Toastify__toast--default {
+    border-radius: 4px !important;
+    font-size: 16px !important;
+}
